@@ -1,0 +1,798 @@
+{
+  "$id": "1",
+  "$type": "AB_Research_Common.CyberNetworkCore.Substation, TamuControlCenter.Client",
+  "relayCounter": 5,
+  "label": "RELLIS.Utility_0.ODESSA 2",
+  "networkLan": "10.52.1.0",
+  "supernetMask": "255.255.255.128",
+  "utility": "Utility_0",
+  "substation": "ODESSA 2",
+  "substationNumber": "1",
+  "OTAddress": "10.52.1.0",
+  "OTSubnetMask": "255.255.255.192",
+  "OTHosts": {
+    "$id": "2",
+    "$type": "System.Collections.Generic.List`1[[System.Net.IPAddress, System]], mscorlib",
+    "$values": [
+      "10.52.1.1",
+      "10.52.1.2",
+      "10.52.1.3",
+      "10.52.1.4",
+      "10.52.1.5",
+      "10.52.1.6",
+      "10.52.1.7",
+      "10.52.1.8",
+      "10.52.1.9",
+      "10.52.1.10",
+      "10.52.1.11",
+      "10.52.1.12",
+      "10.52.1.13",
+      "10.52.1.14",
+      "10.52.1.15",
+      "10.52.1.16",
+      "10.52.1.17",
+      "10.52.1.18",
+      "10.52.1.19",
+      "10.52.1.20",
+      "10.52.1.21",
+      "10.52.1.22",
+      "10.52.1.23",
+      "10.52.1.24",
+      "10.52.1.25",
+      "10.52.1.26",
+      "10.52.1.27",
+      "10.52.1.28",
+      "10.52.1.29",
+      "10.52.1.30",
+      "10.52.1.31",
+      "10.52.1.32",
+      "10.52.1.33",
+      "10.52.1.34",
+      "10.52.1.35",
+      "10.52.1.36",
+      "10.52.1.37",
+      "10.52.1.38",
+      "10.52.1.39",
+      "10.52.1.40",
+      "10.52.1.41",
+      "10.52.1.42",
+      "10.52.1.43",
+      "10.52.1.44",
+      "10.52.1.45",
+      "10.52.1.46",
+      "10.52.1.47",
+      "10.52.1.48",
+      "10.52.1.49",
+      "10.52.1.50",
+      "10.52.1.51",
+      "10.52.1.52",
+      "10.52.1.53",
+      "10.52.1.54",
+      "10.52.1.55",
+      "10.52.1.56",
+      "10.52.1.57",
+      "10.52.1.58",
+      "10.52.1.59",
+      "10.52.1.60",
+      "10.52.1.61",
+      "10.52.1.62"
+    ]
+  },
+  "OTSegments": 0,
+  "routeAddress": "10.52.1.64",
+  "routeSubnetMask": "255.255.255.224",
+  "routingHosts": {
+    "$id": "3",
+    "$type": "System.Collections.Generic.List`1[[System.Net.IPAddress, System]], mscorlib",
+    "$values": [
+      "10.52.1.65",
+      "10.52.1.66",
+      "10.52.1.67",
+      "10.52.1.68",
+      "10.52.1.69",
+      "10.52.1.70",
+      "10.52.1.71",
+      "10.52.1.72",
+      "10.52.1.73",
+      "10.52.1.74",
+      "10.52.1.75",
+      "10.52.1.76",
+      "10.52.1.77",
+      "10.52.1.78",
+      "10.52.1.79",
+      "10.52.1.80",
+      "10.52.1.81",
+      "10.52.1.82",
+      "10.52.1.83",
+      "10.52.1.84",
+      "10.52.1.85",
+      "10.52.1.86",
+      "10.52.1.87",
+      "10.52.1.88",
+      "10.52.1.89",
+      "10.52.1.90",
+      "10.52.1.91",
+      "10.52.1.92",
+      "10.52.1.93",
+      "10.52.1.94"
+    ]
+  },
+  "corporateAddress": "10.52.1.96",
+  "corporateSubnetMask": "255.255.255.224",
+  "corporateHosts": {
+    "$id": "4",
+    "$type": "System.Collections.Generic.List`1[[System.Net.IPAddress, System]], mscorlib",
+    "$values": [
+      "10.52.1.97",
+      "10.52.1.98",
+      "10.52.1.99",
+      "10.52.1.100",
+      "10.52.1.101",
+      "10.52.1.102",
+      "10.52.1.103",
+      "10.52.1.104",
+      "10.52.1.105",
+      "10.52.1.106",
+      "10.52.1.107",
+      "10.52.1.108",
+      "10.52.1.109",
+      "10.52.1.110",
+      "10.52.1.111",
+      "10.52.1.112",
+      "10.52.1.113",
+      "10.52.1.114",
+      "10.52.1.115",
+      "10.52.1.116",
+      "10.52.1.117",
+      "10.52.1.118",
+      "10.52.1.119",
+      "10.52.1.120",
+      "10.52.1.121",
+      "10.52.1.122",
+      "10.52.1.123",
+      "10.52.1.124",
+      "10.52.1.125",
+      "10.52.1.126"
+    ]
+  },
+  "latitude": 31.91,
+  "longitude": -102.26,
+  "nodes": {
+    "$id": "5",
+    "$type": "System.Collections.Generic.List`1[[AB_Research_Common.CyberNetworkCore.CyberNetworkElement, TamuControlCenter.Client]], mscorlib",
+    "$values": [
+      {
+        "$id": "6",
+        "$type": "AB_Research_Common.CyberNetworkCore.Firewall, TamuControlCenter.Client",
+        "utility": "Utility_0",
+        "adminIP": "10.52.1.97",
+        "ipAddress": "10.52.1.96",
+        "subnetMask": "255.255.255.224",
+        "vlan": "Corporate",
+        "interfaces": {
+          "$id": "7",
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": [
+            "1",
+            "2"
+          ]
+        },
+        "acls": {
+          "$id": "8",
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": [
+            "10.52.0.0#True#10.52.1.0#20000",
+            "10.52.1.0#True#10.52.0.0#20000"
+          ]
+        },
+        "latitude": 31.91,
+        "longitude": -102.26,
+        "substation": "ODESSA 2",
+        "label": "Utility_0.ODESSA 2..Firewall 1",
+        "compromised": false
+      },
+      {
+        "$id": "9",
+        "$type": "AB_Research_Common.CyberNetworkCore.Router, TamuControlCenter.Client",
+        "utility": "Utility_0",
+        "adminIP": "10.52.1.98",
+        "ipAddress": "10.52.1.96",
+        "subnetMask": "255.255.255.224",
+        "vlan": "Corporate",
+        "interfaces": {
+          "$id": "10",
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": []
+        },
+        "routingTable": {
+          "$id": "11",
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": [
+            "10.52.0.0#255.255.255.0#10.52.0.4#10"
+          ]
+        },
+        "substation": "ODESSA 2",
+        "label": "Utility_0.ODESSA 2..Router 1",
+        "compromised": false
+      },
+      {
+        "$id": "12",
+        "$type": "AB_Research_Common.CyberNetworkCore.Switch, TamuControlCenter.Client",
+        "utility": "Utility_0",
+        "adminIP": "10.52.1.1",
+        "ipAddress": "10.52.1.0",
+        "subnetMask": "255.255.255.192",
+        "vlan": "OT",
+        "arpTable": {
+          "$id": "13",
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": []
+        },
+        "substation": "ODESSA 2",
+        "label": "Utility_0.ODESSA 2.OT.Switch 1",
+        "compromised": false
+      },
+      {
+        "$id": "14",
+        "$type": "AB_Research_Common.CyberNetworkCore.RelayController, TamuControlCenter.Client",
+        "utility": "Utility_0",
+        "adminIP": "10.52.1.2",
+        "ipAddress": "10.52.1.0",
+        "subnetMask": "255.255.255.192",
+        "vlan": "OT",
+        "substation": "ODESSA 2",
+        "relayIps": {
+          "$id": "15",
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": [
+            "10.52.1.3",
+            "10.52.1.4",
+            "10.52.1.5",
+            "10.52.1.6",
+            "10.52.1.7"
+          ]
+        },
+        "label": "Utility_0.ODESSA 2.. RC1",
+        "compromised": false
+      },
+      {
+        "$id": "16",
+        "$type": "AB_Research_Common.CyberNetworkCore.Switch, TamuControlCenter.Client",
+        "utility": "Utility_0",
+        "adminIP": "10.52.1.99",
+        "ipAddress": "10.52.1.96",
+        "subnetMask": "255.255.255.224",
+        "vlan": "Corporate",
+        "arpTable": {
+          "$id": "17",
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": []
+        },
+        "substation": "ODESSA 2",
+        "label": "Utility_0.ODESSA 2.Corporate.Switch 2",
+        "compromised": false
+      },
+      {
+        "$id": "18",
+        "$type": "AB_Research_Common.CyberNetworkCore.CyberHost, TamuControlCenter.Client",
+        "utility": "Utility_0",
+        "adminIP": "10.52.1.100",
+        "ipAddress": "10.52.1.96",
+        "subnetMask": "255.255.255.224",
+        "vlan": "Corporate",
+        "substation": "ODESSA 2",
+        "openPorts": {
+          "$id": "19",
+          "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+          "$values": [
+            22,
+            80
+          ]
+        },
+        "label": "Utility_0.ODESSA 2..Host 1",
+        "compromised": false
+      },
+      {
+        "$id": "20",
+        "$type": "AB_Research_Common.CyberNetworkCore.CyberHost, TamuControlCenter.Client",
+        "utility": "Utility_0",
+        "adminIP": "10.52.1.100",
+        "ipAddress": "10.52.1.96",
+        "subnetMask": "255.255.255.224",
+        "vlan": "Corporate",
+        "substation": "ODESSA 2",
+        "openPorts": {
+          "$id": "21",
+          "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+          "$values": [
+            22,
+            80
+          ]
+        },
+        "label": "Utility_0.ODESSA 2..Host 2",
+        "compromised": false
+      },
+      {
+        "$id": "22",
+        "$type": "AB_Research_Common.CyberNetworkCore.Relay, TamuControlCenter.Client",
+        "utility": "Utility_0",
+        "adminIP": "10.52.1.3",
+        "ipAddress": "10.52.1.0",
+        "subnetMask": "255.255.255.192",
+        "vlan": "OT",
+        "substation": "ODESSA 2",
+        "busNumber": "1001",
+        "relayType": "load",
+        "relaySubType": "load",
+        "label": "Utility_0.ODESSA 2.. Relay1",
+        "breakers": {
+          "$id": "23",
+          "$type": "System.Collections.Generic.List`1[[AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client]], mscorlib",
+          "$values": [
+            {
+              "$id": "24",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 1,
+              "name": "$Disconnect$ 1001_8161_1",
+              "controlType": "Disconnect",
+              "status": true,
+              "busNumber": "1001",
+              "frombusNumber": " 1001",
+              "toBusNumber": "8161",
+              "cktId": "1"
+            },
+            {
+              "$id": "25",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 2,
+              "name": "$Breaker$ 8161_8162_1",
+              "controlType": "Breaker",
+              "status": true,
+              "busNumber": "1001",
+              "frombusNumber": " 8161",
+              "toBusNumber": "8162",
+              "cktId": "1"
+            },
+            {
+              "$id": "26",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 3,
+              "name": "$Disconnect$ 8162_8163_1",
+              "controlType": "Disconnect",
+              "status": true,
+              "busNumber": "1001",
+              "frombusNumber": " 8162",
+              "toBusNumber": "8163",
+              "cktId": "1"
+            }
+          ]
+        },
+        "compromised": false
+      },
+      {
+        "$id": "27",
+        "$type": "AB_Research_Common.CyberNetworkCore.Relay, TamuControlCenter.Client",
+        "utility": "Utility_0",
+        "adminIP": "10.52.1.4",
+        "ipAddress": "10.52.1.0",
+        "subnetMask": "255.255.255.192",
+        "vlan": "OT",
+        "substation": "ODESSA 2",
+        "busNumber": "1001->1064",
+        "relayType": "line",
+        "relaySubType": "dist",
+        "label": "Utility_0.ODESSA 2.. Relay2",
+        "breakers": {
+          "$id": "28",
+          "$type": "System.Collections.Generic.List`1[[AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client]], mscorlib",
+          "$values": [
+            {
+              "$id": "29",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 1,
+              "name": "$Line$ 8166_8742_1",
+              "controlType": "Line",
+              "status": true,
+              "busNumber": "1001->1064",
+              "frombusNumber": " 8166",
+              "toBusNumber": "8742",
+              "cktId": "1"
+            },
+            {
+              "$id": "30",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 2,
+              "name": "$Disconnect$ 8165_8166_1",
+              "controlType": "Disconnect",
+              "status": true,
+              "busNumber": "1001->1064",
+              "frombusNumber": " 8165",
+              "toBusNumber": "8166",
+              "cktId": "1"
+            },
+            {
+              "$id": "31",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 3,
+              "name": "$Breaker$ 8164_8165_1",
+              "controlType": "Breaker",
+              "status": true,
+              "busNumber": "1001->1064",
+              "frombusNumber": " 8164",
+              "toBusNumber": "8165",
+              "cktId": "1"
+            },
+            {
+              "$id": "32",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 4,
+              "name": "$Disconnect$ 1001_8164_1",
+              "controlType": "Disconnect",
+              "status": true,
+              "busNumber": "1001->1064",
+              "frombusNumber": " 1001",
+              "toBusNumber": "8164",
+              "cktId": "1"
+            }
+          ]
+        },
+        "compromised": false
+      },
+      {
+        "$id": "33",
+        "$type": "AB_Research_Common.CyberNetworkCore.Relay, TamuControlCenter.Client",
+        "utility": "Utility_0",
+        "adminIP": "10.52.1.5",
+        "ipAddress": "10.52.1.0",
+        "subnetMask": "255.255.255.192",
+        "vlan": "OT",
+        "substation": "ODESSA 2",
+        "busNumber": "1001->1064",
+        "relayType": "line",
+        "relaySubType": "dist",
+        "label": "Utility_0.ODESSA 2.. Relay3",
+        "breakers": {
+          "$id": "34",
+          "$type": "System.Collections.Generic.List`1[[AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client]], mscorlib",
+          "$values": [
+            {
+              "$id": "35",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 5,
+              "name": "$Line$ 8169_8745_2",
+              "controlType": "Line",
+              "status": true,
+              "busNumber": "1001->1064",
+              "frombusNumber": " 8169",
+              "toBusNumber": "8745",
+              "cktId": "2"
+            },
+            {
+              "$id": "36",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 6,
+              "name": "$Disconnect$ 8168_8169_1",
+              "controlType": "Disconnect",
+              "status": true,
+              "busNumber": "1001->1064",
+              "frombusNumber": " 8168",
+              "toBusNumber": "8169",
+              "cktId": "1"
+            },
+            {
+              "$id": "37",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 7,
+              "name": "$Breaker$ 8167_8168_1",
+              "controlType": "Breaker",
+              "status": true,
+              "busNumber": "1001->1064",
+              "frombusNumber": " 8167",
+              "toBusNumber": "8168",
+              "cktId": "1"
+            },
+            {
+              "$id": "38",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 8,
+              "name": "$Disconnect$ 1001_8167_1",
+              "controlType": "Disconnect",
+              "status": true,
+              "busNumber": "1001->1064",
+              "frombusNumber": " 1001",
+              "toBusNumber": "8167",
+              "cktId": "1"
+            }
+          ]
+        },
+        "compromised": false
+      },
+      {
+        "$id": "39",
+        "$type": "AB_Research_Common.CyberNetworkCore.Relay, TamuControlCenter.Client",
+        "utility": "Utility_0",
+        "adminIP": "10.52.1.6",
+        "ipAddress": "10.52.1.0",
+        "subnetMask": "255.255.255.192",
+        "vlan": "OT",
+        "substation": "ODESSA 2",
+        "busNumber": "1001->1071",
+        "relayType": "line",
+        "relaySubType": "dist",
+        "label": "Utility_0.ODESSA 2.. Relay4",
+        "breakers": {
+          "$id": "40",
+          "$type": "System.Collections.Generic.List`1[[AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client]], mscorlib",
+          "$values": [
+            {
+              "$id": "41",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 9,
+              "name": "$Line$ 8172_8830_1",
+              "controlType": "Line",
+              "status": true,
+              "busNumber": "1001->1071",
+              "frombusNumber": " 8172",
+              "toBusNumber": "8830",
+              "cktId": "1"
+            },
+            {
+              "$id": "42",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 10,
+              "name": "$Disconnect$ 8171_8172_1",
+              "controlType": "Disconnect",
+              "status": true,
+              "busNumber": "1001->1071",
+              "frombusNumber": " 8171",
+              "toBusNumber": "8172",
+              "cktId": "1"
+            },
+            {
+              "$id": "43",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 11,
+              "name": "$Breaker$ 8170_8171_1",
+              "controlType": "Breaker",
+              "status": true,
+              "busNumber": "1001->1071",
+              "frombusNumber": " 8170",
+              "toBusNumber": "8171",
+              "cktId": "1"
+            },
+            {
+              "$id": "44",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 12,
+              "name": "$Disconnect$ 1001_8170_1",
+              "controlType": "Disconnect",
+              "status": true,
+              "busNumber": "1001->1071",
+              "frombusNumber": " 1001",
+              "toBusNumber": "8170",
+              "cktId": "1"
+            }
+          ]
+        },
+        "compromised": false
+      },
+      {
+        "$id": "45",
+        "$type": "AB_Research_Common.CyberNetworkCore.Relay, TamuControlCenter.Client",
+        "utility": "Utility_0",
+        "adminIP": "10.52.1.7",
+        "ipAddress": "10.52.1.0",
+        "subnetMask": "255.255.255.192",
+        "vlan": "OT",
+        "substation": "ODESSA 2",
+        "busNumber": "1001->1071",
+        "relayType": "line",
+        "relaySubType": "dist",
+        "label": "Utility_0.ODESSA 2.. Relay5",
+        "breakers": {
+          "$id": "46",
+          "$type": "System.Collections.Generic.List`1[[AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client]], mscorlib",
+          "$values": [
+            {
+              "$id": "47",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 13,
+              "name": "$Line$ 8175_8833_2",
+              "controlType": "Line",
+              "status": true,
+              "busNumber": "1001->1071",
+              "frombusNumber": " 8175",
+              "toBusNumber": "8833",
+              "cktId": "2"
+            },
+            {
+              "$id": "48",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 14,
+              "name": "$Disconnect$ 8174_8175_1",
+              "controlType": "Disconnect",
+              "status": true,
+              "busNumber": "1001->1071",
+              "frombusNumber": " 8174",
+              "toBusNumber": "8175",
+              "cktId": "1"
+            },
+            {
+              "$id": "49",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 15,
+              "name": "$Breaker$ 8173_8174_1",
+              "controlType": "Breaker",
+              "status": true,
+              "busNumber": "1001->1071",
+              "frombusNumber": " 8173",
+              "toBusNumber": "8174",
+              "cktId": "1"
+            },
+            {
+              "$id": "50",
+              "$type": "AB_Research_Common.CyberNetworkCore.Relay+breaker, TamuControlCenter.Client",
+              "id": 16,
+              "name": "$Disconnect$ 1001_8173_1",
+              "controlType": "Disconnect",
+              "status": true,
+              "busNumber": "1001->1071",
+              "frombusNumber": " 1001",
+              "toBusNumber": "8173",
+              "cktId": "1"
+            }
+          ]
+        },
+        "compromised": false
+      }
+    ]
+  },
+  "links": {
+    "$id": "51",
+    "$type": "System.Collections.Generic.List`1[[AB_Research_Common.CyberNetworkCore.Link, TamuControlCenter.Client]], mscorlib",
+    "$values": [
+      {
+        "$id": "52",
+        "$type": "AB_Research_Common.CyberNetworkCore.Link, TamuControlCenter.Client",
+        "src": "Utility_0.ODESSA 2..Firewall 1",
+        "dest": "Utility_0.ODESSA 2..Router 1",
+        "type": "serial",
+        "bandwidth": 10.0,
+        "distance": 10.0,
+        "compromised": false
+      },
+      {
+        "$id": "53",
+        "$type": "AB_Research_Common.CyberNetworkCore.Link, TamuControlCenter.Client",
+        "src": "Utility_0.ODESSA 2..Firewall 1",
+        "dest": "Utility_0.ODESSA 2.OT.Switch 1",
+        "type": "serial",
+        "bandwidth": 10.0,
+        "distance": 10.0,
+        "compromised": false
+      },
+      {
+        "$id": "54",
+        "$type": "AB_Research_Common.CyberNetworkCore.Link, TamuControlCenter.Client",
+        "src": "Utility_0.ODESSA 2.OT.Switch 1",
+        "dest": "Utility_0.ODESSA 2.. RC1",
+        "type": "serial",
+        "bandwidth": 10.0,
+        "distance": 10.0,
+        "compromised": false
+      },
+      {
+        "$id": "55",
+        "$type": "AB_Research_Common.CyberNetworkCore.Link, TamuControlCenter.Client",
+        "src": "Utility_0.ODESSA 2..Router 1",
+        "dest": "Utility_0.ODESSA 2.Corporate.Switch 2",
+        "type": "serial",
+        "bandwidth": 10.0,
+        "distance": 10.0,
+        "compromised": false
+      },
+      {
+        "$id": "56",
+        "$type": "AB_Research_Common.CyberNetworkCore.Link, TamuControlCenter.Client",
+        "src": "Utility_0.ODESSA 2.Corporate.Switch 2",
+        "dest": "Utility_0.ODESSA 2..Host 1",
+        "type": "serial",
+        "bandwidth": 10.0,
+        "distance": 10.0,
+        "compromised": false
+      },
+      {
+        "$id": "57",
+        "$type": "AB_Research_Common.CyberNetworkCore.Link, TamuControlCenter.Client",
+        "src": "Utility_0.ODESSA 2.Corporate.Switch 2",
+        "dest": "Utility_0.ODESSA 2..Host 2",
+        "type": "serial",
+        "bandwidth": 10.0,
+        "distance": 10.0,
+        "compromised": false
+      },
+      {
+        "$id": "58",
+        "$type": "AB_Research_Common.CyberNetworkCore.Link, TamuControlCenter.Client",
+        "src": "Utility_0.ODESSA 2.. RC1",
+        "dest": "Utility_0.ODESSA 2.. Relay1",
+        "type": "serial",
+        "bandwidth": 10.0,
+        "distance": 10.0,
+        "compromised": false
+      },
+      {
+        "$id": "59",
+        "$type": "AB_Research_Common.CyberNetworkCore.Link, TamuControlCenter.Client",
+        "src": "Utility_0.ODESSA 2.. RC1",
+        "dest": "Utility_0.ODESSA 2.. Relay2",
+        "type": "serial",
+        "bandwidth": 10.0,
+        "distance": 10.0,
+        "compromised": false
+      },
+      {
+        "$id": "60",
+        "$type": "AB_Research_Common.CyberNetworkCore.Link, TamuControlCenter.Client",
+        "src": "Utility_0.ODESSA 2.. RC1",
+        "dest": "Utility_0.ODESSA 2.. Relay3",
+        "type": "serial",
+        "bandwidth": 10.0,
+        "distance": 10.0,
+        "compromised": false
+      },
+      {
+        "$id": "61",
+        "$type": "AB_Research_Common.CyberNetworkCore.Link, TamuControlCenter.Client",
+        "src": "Utility_0.ODESSA 2.. RC1",
+        "dest": "Utility_0.ODESSA 2.. Relay4",
+        "type": "serial",
+        "bandwidth": 10.0,
+        "distance": 10.0,
+        "compromised": false
+      },
+      {
+        "$id": "62",
+        "$type": "AB_Research_Common.CyberNetworkCore.Link, TamuControlCenter.Client",
+        "src": "Utility_0.ODESSA 2.. RC1",
+        "dest": "Utility_0.ODESSA 2.. Relay5",
+        "type": "serial",
+        "bandwidth": 10.0,
+        "distance": 10.0,
+        "compromised": false
+      }
+    ]
+  },
+  "switches": {
+    "$id": "63",
+    "$type": "System.Collections.Generic.List`1[[AB_Research_Common.CyberNetworkCore.Switch, TamuControlCenter.Client]], mscorlib",
+    "$values": [
+      {
+        "$ref": "12"
+      }
+    ]
+  },
+  "rcs": {
+    "$id": "64",
+    "$type": "System.Collections.Generic.List`1[[AB_Research_Common.CyberNetworkCore.RelayController, TamuControlCenter.Client]], mscorlib",
+    "$values": [
+      {
+        "$ref": "14"
+      }
+    ]
+  },
+  "substationFirewall": {
+    "$ref": "6"
+  },
+  "substationRouter": {
+    "$ref": "9"
+  },
+  "substationSwitch": {
+    "$ref": "12"
+  },
+  "substationrelayController": {
+    "$ref": "14"
+  },
+  "starting": 52,
+  "compromised": false
+}
