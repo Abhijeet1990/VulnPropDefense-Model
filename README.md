@@ -15,3 +15,5 @@ e) **Evaluation of ICS network:** Texas Synthetic Electric Grid's communication 
 Hence, the `vuln_prop_defense_UtilityControlCenter.py` and `vuln_prop_defense_Substation.py`  are for the utility control centers and substations respectively.
 
 f) The files `Utility_0.json` (is a sample control center communication network of a utility), while `ODESSA_1.json` and `ODESSA_2.json` are two sample substation connected to the Utility.
+
+The research paper for this repository is available under the title [Toward a Mathematical Vulnerability Propagation and Defense Model in Smart Grid Networks](https://arxiv.org/abs/2208.13884).
